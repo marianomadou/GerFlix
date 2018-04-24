@@ -34,3 +34,20 @@
 1524607043 source:c:\test\jose\gerflix\gerflix\gerflix 1.0\usuario.c
 	"Usuario.h"
 
+1524609860 source:c:\test\jose\gerflix\gerflix\mmadou\gerflix\gerflix 1.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Usuario.h"
+
+1524609860 c:\test\jose\gerflix\gerflix\mmadou\gerflix\gerflix 1.0\usuario.h
+	"Serie.h"
+
+1524609860 c:\test\jose\gerflix\gerflix\mmadou\gerflix\gerflix 1.0\serie.h
+
+1524609860 source:c:\test\jose\gerflix\gerflix\mmadou\gerflix\gerflix 1.0\serie.c
+	"Serie.h"
+	<string.h>
+
+1524609860 source:c:\test\jose\gerflix\gerflix\mmadou\gerflix\gerflix 1.0\usuario.c
+	"Usuario.h"
+

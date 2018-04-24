@@ -1,5 +1,6 @@
 #include "Serie.h"
 #include <string.h>
+#include <stdio.h>
 
 /*
     int idSerie;
