@@ -22,13 +22,10 @@ int main()
 */
 
 /*1.*/    mostrarListaSeries(listaDeSeries, TAMSERIE);
-
+/*2.*/    mostrarListaUsuarios(listaDeUsuarios, TAMUSUARIO);
 /*3.*/    mostrarUsuarioConSuSerie(listaDeUsuarios, TAMUSUARIO, listaDeSeries, TAMSERIE);
-
-
-
-
-
 
     return 0;
 }
+
+

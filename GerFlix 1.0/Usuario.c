@@ -1,4 +1,3 @@
-
 #include "Usuario.h"
 
 void inicializarUsuariosEstado(eUsuario usuarios[], int cant)
@@ -57,9 +56,21 @@ void mostrarUsuarioConSuSerie(eUsuario usuarios[], int cantU, eSerie series[], i
 
     }
 
-
-
-
-
-
 }
+
+void mostrarListaUsuarios(eUsuario usuarios[], int t)
+{
+        printf("\n--LISTA DE USUARIOS--\n");
+
+        for(int i=0;i<t;i++)
+    {
+        if(usuarios[i].estado==1)
+        {
+
+        printf("%d %s\n", usuarios[i].idUsuario, usuarios[i].nombre);
+
+
+        }
+    }
+}
+

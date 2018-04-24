@@ -1,4 +1,3 @@
-
 #include "Serie.h"
 #include <string.h>
 
@@ -8,7 +7,6 @@
     char genero[20];
     int cantidadTemporadas;
     int estado;
-
 */
 
 void inicializarSeriesEstado(eSerie series[], int cant)
@@ -40,6 +38,7 @@ void inicializarSeriesHardCode(eSerie series[])
         strcpy(series[i].genero, genero[i]);
     }
 }
+
 void mostrarListaSeries(eSerie series[], int cant)
 {
     int i;
@@ -52,6 +51,3 @@ void mostrarListaSeries(eSerie series[], int cant)
 
     }
 }
-
-
-
