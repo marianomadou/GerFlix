@@ -7,6 +7,7 @@
 typedef struct
 {
 int idUsuario;
+char nombre[LONG];
 char email[25];
 char Password[25];
 int idSerie;
@@ -19,4 +20,11 @@ int buscarUsuario(eUsuario [],int,int);
 int buscarUsuarioLibre(eUsuario [],int);
 
 
+void inicializarUsuariosHardCode(eUsuario[]);
+void inicializarUsuariosEstado(eUsuario[], int);
+
+/*
+void mostrarListaUsuarios(eUsuario[], int);
+void mostrarUsuarioConSuSerie(eUsuario[], int, eSerie[], int);
+*/
 #endif // FUNCIONES_H_INCLUDED

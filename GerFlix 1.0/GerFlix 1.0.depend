@@ -80,3 +80,32 @@
 	<conio.h>
 	<string.h>
 
+1524847280 source:c:\users\administrador\downloads\apuntes tecnicatura\gerflix\serie.c
+	"usuario.h"
+	"serie.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1524849976 c:\users\administrador\downloads\apuntes tecnicatura\gerflix\usuario.h
+	"serie.h"
+
+1524818268 c:\users\administrador\downloads\apuntes tecnicatura\gerflix\serie.h
+
+1524846775 source:c:\users\administrador\downloads\apuntes tecnicatura\gerflix\main.c
+	"usuario.h"
+	"serie.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1524846974 source:c:\users\administrador\downloads\apuntes tecnicatura\gerflix\usuario.c
+	"usuario.h"
+	"serie.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+

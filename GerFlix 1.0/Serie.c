@@ -23,8 +23,9 @@ void menuSerie(eSerie lista[], int tam)
                 printf("2 - BAJAS\n");
                 printf("3 - MODIFICACIONES\n");
                 printf("4 - MOSTRAR\n");
-                printf("5 - ORDENAR\n\n");
-                printf("9 - MENU USUARIOS\n");
+                printf("5 - ORDENAR\n");
+                printf("6 - MENU USUARIOS\n\n");
+                printf("9 - SALIR\n");
 
                 opcion = IngresarOpcionMenu(1,9);
 
@@ -43,8 +44,6 @@ void menuSerie(eSerie lista[], int tam)
                             scanf("%d",&lista[index].canttemporadas);
                             fflush(stdin);
                             lista[index].estado = 1;
-
-
 
                         }else{
                             printf("No hay mas espacio para guardar series!!!");
@@ -109,8 +108,8 @@ void menuSerie(eSerie lista[], int tam)
 
                             break;
 
-                    case 9:
-                    printf("\nMenu Usuario\n");
+                    case 6:
+                    system("cls");
                     menuUsuario(listaUsuarios, lista, TAM);
 
                 }
