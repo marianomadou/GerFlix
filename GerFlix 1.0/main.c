@@ -1,31 +1,28 @@
+#include "usuario.h"
+#include "serie.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "Usuario.h"
-#define TAMSERIE 20
-#define TAMUSUARIO 100
+#include <conio.h>
+#include <string.h>
+
+#define TAM 4
+#define LONG 25
+
+/*  cambiar int lanzamiento por char genero
+    int idSerie;
+    char nombre[50];
+    char genero[20];
+    int cantidadTemporadas;
+    int estado;
+*/
 
 int main()
 {
-    eSerie listaDeSeries[TAMSERIE];
-    eUsuario listaDeUsuarios[TAMUSUARIO];
+    eSerie listaSerie[TAM]= {{0}};
 
-    inicializarSeriesEstado(listaDeSeries, TAMSERIE);
-    inicializarSeriesHardCode(listaDeSeries);
+    cargarDatosHardCode(listaSerie);
 
-    inicializarUsuariosEstado(listaDeUsuarios,TAMUSUARIO);
-    inicializarUsuariosHardCode(listaDeUsuarios);
-
-/*  1. Mostrar el listado de series
-    2. Mostrar el listado de usuarios
-    3. Mostrar el listado de Usuarios con el nombre de la serie que ve
-    4. Mostrar por cada serie, el nombre de los usuarios que la ven.
-*/
-
-/*1.*/    mostrarListaSeries(listaDeSeries, TAMSERIE);
-/*2.*/    mostrarListaUsuarios(listaDeUsuarios, TAMUSUARIO);
-/*3.*/    mostrarUsuarioConSuSerie(listaDeUsuarios, TAMUSUARIO, listaDeSeries, TAMSERIE);
+    menuSerie(listaSerie, TAM);
 
     return 0;
 }
-
-

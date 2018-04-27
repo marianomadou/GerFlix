@@ -1,14 +1,22 @@
-#include "Serie.h"
+#ifndef USUARIOS_H_INCLUDED
+#define USUARIOS_H_INCLUDED
+
+#include "serie.h"
+
 
 typedef struct
 {
-    int idUsuario;
-    char nombre[50];
-    int idSerie;
-    int estado;
-}eUsuario;
+int idUsuario;
+char email[25];
+char Password[25];
+int idSerie;
+int estado;
+} eUsuario;
 
-void inicializarUsuariosEstado(eUsuario[], int);
-void inicializarUsuariosHardCode(eUsuario[]);
-void mostrarListaUsuarios(eUsuario usuarios[], int t);
-void mostrarUsuarioConSuSerie(eUsuario[], int, eSerie[], int);
+
+void menuUsuario(eUsuario [], eSerie [], int tam);
+int buscarUsuario(eUsuario [],int,int);
+int buscarUsuarioLibre(eUsuario [],int);
+
+
+#endif // FUNCIONES_H_INCLUDED

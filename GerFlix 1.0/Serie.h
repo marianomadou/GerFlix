@@ -1,15 +1,25 @@
+#ifndef SERIES_H_INCLUDED
+#define SERIES_H_INCLUDED
+
+#define TAM 4
+#define LONG 25
 
 typedef struct
 {
-    int idSerie;
-    char nombre[50];
-    char genero[20];
-    int cantidadTemporadas;
-    int estado;
-}eSerie;
+int idSerie;
+char nombre[LONG];
+int canttemporadas;
+char genero[LONG];
+int estado;
+} eSerie;
 
-void inicializarSeriesEstado(eSerie[], int);
-void inicializarSeriesHardCode(eSerie[]);
-void mostrarListaSeries(eSerie[], int);
-int buscarLibre(eSerie vec[],int tam);
-int buscarSerie(eSerie vec[],int tam,int id);
+int IngresarOpcionMenu(int, int);
+int validarOpcionMenu(int, int, int);
+void menuSerie(eSerie [], int);
+int buscarLibre(eSerie [],int);
+int buscarSerie(eSerie [],int, int);
+void cargarDatosHardCode(eSerie []);
+
+
+
+#endif // FUNCIONES_H_INCLUDED

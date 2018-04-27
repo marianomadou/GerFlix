@@ -51,3 +51,32 @@
 1524609860 source:c:\test\jose\gerflix\gerflix\mmadou\gerflix\gerflix 1.0\usuario.c
 	"Usuario.h"
 
+1524828791 source:c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\gerflix\gerflix\gerflix 1.0\main.c
+	"usuario.h"
+	"serie.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1524828555 c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\gerflix\gerflix\gerflix 1.0\usuario.h
+	"serie.h"
+
+1524829467 c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\gerflix\gerflix\gerflix 1.0\serie.h
+
+1524831125 source:c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\gerflix\gerflix\gerflix 1.0\serie.c
+	"usuario.h"
+	"serie.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
+1524830816 source:c:\users\mariano\desktop\tecnicatura-utn\programacion y laboratorio i\ejercicios&tp's\gerflix\gerflix\gerflix 1.0\usuario.c
+	"usuario.h"
+	"serie.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+
